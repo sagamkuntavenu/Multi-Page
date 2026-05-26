@@ -1,0 +1,97 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Multi-Page Jewelry</title>
+
+  <link rel="stylesheet" href="Mult page.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Multi-Page Jewelry</div>
+
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button id="menu-btn">☰</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Elegant Jewelry Collection</h1>
+      <p>Luxury designs crafted with perfection.</p>
+      <button>Shop Now</button>
+    </div>
+  </section>
+
+  <!-- Collections -->
+  <section class="collections" id="collections">
+    <h2>Our Collections</h2>
+
+    <div class="product-container">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=1200&auto=format&fit=crop" alt="Ring">
+        <h3>Diamond Ring</h3>
+        <p>₹14,999</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?q=80&w=1200&auto=format&fit=crop" alt="Necklace">
+        <h3>Gold Necklace</h3>
+        <p>₹24,999</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1200&auto=format&fit=crop" alt="Bracelet">
+        <h3>Luxury Bracelet</h3>
+        <p>₹9,999</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+      We create premium luxury jewelry with modern and elegant designs.
+      Our collections are handcrafted with love and perfection.
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Multi-Page Jewelry. All Rights Reserved.</p>
+  </footer>
+
+  <script src="Mult page.js"></script>
+  <script src="routing.js"></script>
+</body>
+</html>
